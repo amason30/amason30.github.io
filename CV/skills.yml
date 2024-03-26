@@ -1,0 +1,32 @@
+- title: Computational
+  categories:
+    - R
+    - R Markdown
+    - R package development
+    - Quarto
+    - git
+    - GitHub
+    - conda/mamba
+    - Unix
+- title: Research
+  categories:
+    - machine learning
+    - data visualization
+    - soil microbiome
+    - necrobiome
+    - amplicon sequencing
+    - metatransriptomics
+    - biostatistics
+    - reproducible research
+    - field research
+- title: Laboratory
+  categories:
+    - DNA extraction
+    - RNA extraction
+    - fluorometric assays
+    - cell culture
+    - cell enumeration
+    - cloning
+    - gel electrophoresis
+    - western blot
+    - PCR/qPCR
