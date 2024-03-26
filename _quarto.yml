@@ -16,7 +16,7 @@ website:
 format:
   html:
     theme: 
-      light: flatly
+      light: minty
       dark: vapor
     css: styles.css
     toc: true
