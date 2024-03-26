@@ -1,19 +1,26 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "amason30.github.io"
   navbar:
-    left:
+    background: primary
+    search: true
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: CV/index.qmd
+        text: CV
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: flatly
+      dark: vapor
     css: styles.css
     toc: true
+    page-layout: full
 
 
 
