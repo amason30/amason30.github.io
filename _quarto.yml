@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-project: 
-  output-dir: docs
   
 website:
   title: "amason30.github.io"
