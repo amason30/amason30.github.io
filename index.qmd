@@ -1,6 +1,6 @@
 ---
 title: "Allison Mason, PhD"
-image: images/OSU_oval.png
+image: images/headshot_2024.jpg
 toc: false
 about: 
   template: jolla
@@ -15,3 +15,8 @@ about:
       href: https://scholar.google.com/citations?user=Fb5W8IAAAAAJ&hl=en&oi=sra
 ---
 
+:::{#about}
+
+I'm a microbial ecologist with experience in computational biology and management of multivariate projects. My research encompasses soil microbial ecology and terrestrial vertebrate decomposition. I have experience with multiple programming languages, with an expertise in R and execution of microbiome data analysis. I'm passionate about open source science, reproducible research, and teaching computational skill to individuals of all levels.
+
+:::
