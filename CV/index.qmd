@@ -93,21 +93,23 @@ listing:
       type: table
       sort-ui: false
       filter-ui: false
-      fields: [when,what,where]
+      fields: [when,what,who,where]
       field-display-names: 
         when: Year
-        what: Course
-        where: Insitution   
+        what: Title
+        who: Organization
+        where: Location
     - id: teaching
       contents: teaching.yml
       type: table
       sort-ui: false
       filter-ui: false
-      fields: [when,what,where]
+      fields: [title,when,what,where]
       field-display-names: 
         when: Year
+        title: Title
         what: Course
-        where: University
+        where: Organization
     - id: mentorship
       contents: mentorship.yml
       type: table
@@ -118,20 +120,9 @@ listing:
         when: Year
         what: Student
         where: University
-    - id: service
-      contents: service.yml
-      type: table
-      sort-ui: false
-      filter-ui: false
-      fields: [dates, where, what, task]
-      field-display-names:
-        dates: Dates
-        what: Title
-        where: Organization
-        task: Role
 ---
 
-View a PDF version of my CV: &ensp; [{{< fa file-pdf >}}]()
+View a PDF version of my CV: &ensp; [{{< fa file-pdf >}}](latex_cv/latexcv.pdf)
 
 ## {{< fa cogs >}} Skills and Expertise
 
@@ -146,6 +137,19 @@ View a PDF version of my CV: &ensp; [{{< fa file-pdf >}}]()
 ## {{< fa chart-column >}} Research Experience
 
 :::{#experience}
+:::
+
+
+## {{< fa book >}} Teaching and Mentorship
+
+### Teaching
+
+:::{#teaching}
+:::
+
+### Mentorship
+
+:::{#mentorship}
 :::
 
 ## {{< fa file-lines >}} Publications
@@ -168,4 +172,14 @@ View a PDF version of my CV: &ensp; [{{< fa file-pdf >}}]()
 ### Collaborator products
 
 :::{#nonfirstauth_conference}
+:::
+
+## {{< fa trophy >}} Awards
+
+:::{#awards}
+:::
+
+## {{< fa bullseye >}} Specialized Training
+
+:::{#development}
 :::
