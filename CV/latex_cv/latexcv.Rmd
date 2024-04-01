@@ -299,3 +299,16 @@ read_yaml_as_tbl(here::here("CV/development.yml")) %>%
   )
 ```
 
+\faHeart Service 
+=================================
+
+```{r service}
+read_yaml_as_tbl(here::here("CV/service.yml")) %>%
+  mutate(where = gsub("<br>", " ", where)) %>%
+  mutate(where = gsub("*", "", where)) %>%
+  detailed_entries(
+    with = what,
+    what = where,
+    where = dates
+  )
+```
