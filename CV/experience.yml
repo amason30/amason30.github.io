@@ -1,27 +1,34 @@
 - title: Postdoctoral Research Fellow (remote)
   lab: "[Schloss Lab](https://www.schlosslab.org/)<br>Department of Microbiology and Immunology<br>Univeristy of Michigan"
-  dates: 2022-present
+  dates: Sep 2022 - present
   tasks: |
-    - Development of computational tools (R) for microbiome and multi-omics research/data analysis
-    - Teaching computational skills to coding beginners at institutional workshops
+    - Development of an R package for microbiome and multi-omics research/data analytics.
+    - Project Team Lead, including oversight and management of progress for masters-level bioinformaticians.
+    - Expanding foundational knowledge of metabolomics.
+    - Cultivating skills in reproducible research, markdown, git/github, quarto, data analysis. 
+    - Teaching computational skills to coding beginners at institutional workshops.
 - title: Graduate Research Assistant
   lab: "[DeBruyn Lab](https://bess.tennessee.edu/debruyn-laboratory/)<br>Department of Biosystems Engineering and Soil Science<br>University of Tennessee-Knoxville"
-  dates: 2017-2022
+  dates: Aug 2017 - Aug 2022
   tasks: |
-   - Development and execution of soil and fluid samples field collection methods 
-   - 16S and ITS amplicon sequencing to characterize soil microbial succession during terrestrial vertebrate decomposition
-   - Measuring soil physical and chemical parameters via soil exctractions and fluorometric assays
-   - Metatranscriptomics to characterize microbial gene expression during terrestrial vertebrate decomposition
-   - Coordination of field sampling across multiple lab groups
+    - Conducted DNA extractions and 16S/ITS amplicon sequencing to characterize soil microbial succession during terrestrial vertebrate decomposition.
+    - Led a project characterizing soil microbial gene expression via metatranscriptomics. 
+    - Managed multivariate datasets while gaining computational skills including Mothur, R, unix, conda, etc.
+    - Developed and executed methods for soil and fluid samples collection.
+    - Measured soil physical and chemical parameters via soil extractions and fluorometric assays.
+    - Managed and collaborated on multiple field experiments: responsible for preparing and executing field sampling.
+    - Navigated, communicated, and collaborated with interdisciplinary research groups to accomplish grant aims and publication. 
 - title: Intern (biology)
   lab: "[Ohio Water Microbiology Laboratory](https://www.usgs.gov/centers/oki-water)<br>Columbus, Ohio<br>United States Geological Survey"
-  dates: 2015-2017
+  dates: Jul 2015 - Jul 2017
   tasks: |
-   - Handling, analyzing, and understanding water and environmental samples
-   - Preparation of solutions and water samples for enumeration fo enterococci, aerobic endospores, muliple source tracking, and analyzinf virus plaques on TSA plates (1601 and 1602)
+    - Handled and prepared water and environmental samples from across the country for various tests such as: enumeration of enterococci, aerobic endospores, and virus plaques (1601 and 1602) and multiple source tracking.
+    - Analyzed and reported test results.
+    - Prepared solutions and media and maintained the lab.
 - title: Undergraduate Researcher
   lab: "Boris-Lawrie Lab<br>College of Veterinary Medicine<br>The Ohio State University"
-  dates: 2014-2015
+  dates: Jan 2014 - May 2015
   tasks: |
-   - Identification of a small protein in eukaryotic cells
-   - Tissue culture, protein purification, gene cloning (plasmid and site directed mutagenesis), and RT-PCR
+    - Learned about protein-protein interactions to understand a suspected gene splicing product.
+    - Applied techniques such as cell culture and gene cloning (plasmid and site directed mutagenesis). 
+    - Acquired skills in RT-PCR, western blotting, gel electrophoresis, and maintaining cell lines.
