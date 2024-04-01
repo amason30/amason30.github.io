@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: docs
-
+project: 
+  type: website
+  output-dir: docs
+  
 website:
   title: "amason30.github.io"
   navbar:
