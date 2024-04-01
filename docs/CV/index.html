@@ -372,6 +372,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-service .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-what','listing-where','listing-dates',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-what","listing-where","listing-dates"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-service'] = new List('listing-service', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -438,6 +466,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#fa-trophy-awards" id="toc-fa-trophy-awards" class="nav-link" data-scroll-target="#fa-trophy-awards"><i class="fa-solid fa-trophy" aria-label="trophy"></i> Awards</a></li>
   <li><a href="#fa-bullseye-specialized-training" id="toc-fa-bullseye-specialized-training" class="nav-link" data-scroll-target="#fa-bullseye-specialized-training"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Specialized Training</a></li>
+  <li><a href="#fa-heart-service" id="toc-fa-heart-service" class="nav-link" data-scroll-target="#fa-heart-service"><i class="fa-solid fa-heart" aria-label="heart"></i> Service</a></li>
   </ul>
 </nav>
 </nav>
@@ -1559,6 +1588,99 @@ Location
 </td>
 <td>
 <span class="listing-where">Knoxville, TN</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="fa-heart-service" class="level2">
+<h2 class="anchored" data-anchor-id="fa-heart-service"><i class="fa-solid fa-heart" aria-label="heart"></i> Service</h2>
+<div id="listing-service" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Role
+</th>
+<th>
+Organization
+</th>
+<th>
+dates
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0">
+<td>
+<span class="listing-what">Member</span>
+</td>
+<td>
+<span class="listing-where">U-M Carpentries</span>
+</td>
+<td>
+<span class="listing-dates">Jan 2023 - Present</span>
+</td>
+</tr>
+<tr data-index="1">
+<td>
+<span class="listing-what">Vice President</span>
+</td>
+<td>
+<span class="listing-where">Microbiology Graduate Student Association</span>
+</td>
+<td>
+<span class="listing-dates">Aug 2019 - May 2021</span>
+</td>
+</tr>
+<tr data-index="2">
+<td>
+<span class="listing-what">Symposium Judge</span>
+</td>
+<td>
+<span class="listing-where">University of Tennessee Exhibition of Undergraduate Research and Creative Achievement (EUReCA)</span>
+</td>
+<td>
+<span class="listing-dates">2020, 2019</span>
+</td>
+</tr>
+<tr data-index="3">
+<td>
+<span class="listing-what">Instructor</span>
+</td>
+<td>
+<span class="listing-where">University of Tennessee KidsU Fun with Forensics, Adventures in Chemistry</span>
+</td>
+<td>
+<span class="listing-dates">2019, 2018</span>
+</td>
+</tr>
+<tr data-index="4">
+<td>
+<span class="listing-what">Regional Judge</span>
+</td>
+<td>
+<span class="listing-where">Health Occupations Students of America (HOSA) Ohio Regional</span>
+</td>
+<td>
+<span class="listing-dates">2017</span>
+</td>
+</tr>
+<tr data-index="5">
+<td>
+<span class="listing-what">Symposium Judge</span>
+</td>
+<td>
+<span class="listing-where">Eastland-Fairfield Bioscience Technologies Capstone Symposium</span>
+</td>
+<td>
+<span class="listing-dates">2014</span>
 </td>
 </tr>
 </tbody>
