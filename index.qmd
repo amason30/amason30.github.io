@@ -1,9 +1,11 @@
 ---
 title: "Allison Mason, PhD"
-image: images/headshot_2024.jpg
+image: images/headshot_blazer.jpg
+image-shape: rectangle
 toc: false
 about: 
   template: jolla
+  image-shape: rectangle
   links:
     - text: "{{< fa regular envelope >}}"
       href: mailto:masonar@umich.edu
@@ -17,6 +19,6 @@ about:
 
 :::{#about}
 
-I'm a microbial ecologist with experience in computational biology and management of multivariate projects. My research encompasses soil microbial ecology and terrestrial vertebrate decomposition. I have experience with multiple programming languages, with an expertise in R and execution of microbiome data analysis. I'm passionate about open source science, reproducible research, and teaching computational skill to individuals of all levels.
+I'm a microbial ecologist with experience in computational biology and management of multivariate projects. My research encompasses soil microbial ecology and terrestrial vertebrate decomposition. I have experience with multiple programming languages, with an expertise in R and execution of microbiome data analysis and package development. I'm passionate about open source science, reproducible research, and teaching computational skill to individuals of all levels.
 
 :::
