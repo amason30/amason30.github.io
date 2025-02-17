@@ -1,24 +1,31 @@
-- title: "Soil microbial functional succession over one year of human decomposition."
+- title: "Microbial Communities Collectively Recycle Cadavers Over One Year of Human Decomposition."
   authors: "**Allison R. Mason**, Lois S. Taylor, Naomi Gilbert, Steven S. Wilhelm, Jennifer M. DeBruyn."
-  year: 2024
-  journal: "(*in prep*)"
+  year: 2025
+  journal: "*Nature Communications (submitted)*"
   preprint: ""
   doi: ""
   path: ""
+- title: "mpactR: an R adaptation of the metabolomics peak analysis computational tool (MPACT) for use in reproducible data analysis pipelines."
+  authors: "**Allison R. Mason**, Gregory Johnson, Jr, Joseph Krampen, Jennifer N. T. Nguyen, Marcy J. Balunas, Patrick D. Schloss."
+  year: 2025
+  journal: "*mSphere*"
+  preprint: ""
+  doi: "10.1128/mra.00997-24"
+  path: "https://journals.asm.org/doi/full/10.1128/mra.00997-24"
 - title: "Environmental predictors impact microbial-based postmortem interval (PMI) estimation models within human decomposition soils."
   authors: "**Allison R. Mason**, Hayden S. McKee-Zech, Dawnie W. Steadman, Jennifer M. DeBruyn."
   year: 2024
-  journal: "*PLoS ONE (submitted)*"
+  journal: "*PLoS ONE*"
   preprint: ""
-  doi: ""
-  path: ""
-- title: "Transient hypoxia drives soil microbial community dynamics and biogeochemistry during human decomposition."
+  doi: "10.1371/journal.pone.0311906"
+  path: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0311906"
+- title: "Transient hypoxia drives soil microbial community dynamics and biogeochemistry during human decomposition"
   authors: "Lois S. Taylor, **Allison R. Mason**, Hannah Noel, Michael Essington, Mary Davis, Veronica Brown, Dawnie W. Steadman, Jennifer M. DeBruyn."
   year: 2024
-  journal: "*FEMS Microbiology Ecology (in review)*"
+  journal: "*FEMS Microbiology Ecology*"
   preprint: https://www.researchsquare.com/article/rs-3931135/v1
-  doi: ""
-  path: ""
+  doi: "10.1093/femsec/fiae119"
+  path: "https://academic.oup.com/femsec/article/100/10/fiae119/7760398"
 - title: "Microbial ecology of vertebrate decomposition in terrestrial ecosystems."
   authors: "**Allison R. Mason**, Lois S. Taylor, Jennifer M. DeBruyn."
   year: 2023
