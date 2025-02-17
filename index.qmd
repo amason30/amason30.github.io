@@ -1,7 +1,6 @@
 ---
 title: "Allison Mason, PhD"
 image: images/headshot_blazer.jpg
-image-shape: rectangle
 toc: false
 about: 
   template: jolla
