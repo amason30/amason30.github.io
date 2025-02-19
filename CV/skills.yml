@@ -16,6 +16,7 @@
     - necrobiome
     - amplicon sequencing
     - metatransriptomics
+    - metabolomics
     - biostatistics
     - reproducible research
     - field research
@@ -23,7 +24,7 @@
   categories:
     - DNA extraction
     - RNA extraction
-    - fluorometric assays
+    - fluorometric/colorimetric assays
     - cell culture
     - cell enumeration
     - cloning

@@ -1,12 +1,21 @@
+- title: Biologist
+  lab: "[Reston Microbiology Lab](https://www.usgs.gov/labs/reston-microbiology-laboratory)<br>Geology, Energy & Minerals Science Center<br>U.S. Geological Survey"
+  dates: Nov 2024 - Feb 2025
+  tasks: |
+    - Conducted laboratory experiments to better understand microbial manganese-cycling in ecosystems impacted by oil and gas production.
+    - Conducted laboratory experiments to better underdtand microbial suflur-cycling in ecosystems impacted by acid mine drainage.
+    - Created a center code club to teach early career scientits R language skills.
+    - Oversaw laboratory operations.
+    - Developed, mananged, and executed data anlaysis workflows.
 - title: Postdoctoral Research Fellow (remote)
   lab: "[Schloss Lab](https://www.schlosslab.org/)<br>Department of Microbiology and Immunology<br>Univeristy of Michigan"
-  dates: Sep 2022 - present
+  dates: Sep 2022 - Nov 2024
   tasks: |
     - Development of an R package for microbiome and multi-omics research/data analytics.
     - Project Team Lead, including oversight and management of progress for masters-level bioinformaticians.
-    - Expanding foundational knowledge of metabolomics.
-    - Cultivating skills in reproducible research, markdown, git/github, quarto, data analysis. 
-    - Teaching computational skills to coding beginners at institutional workshops.
+    - Expanded foundational knowledge of metabolomics.
+    - Cultivated skills in reproducible research, markdown, git/github, quarto, data analysis. 
+    - Taught computational skills to coding beginners at institutional workshops.
 - title: Graduate Research Assistant
   lab: "[DeBruyn Lab](https://bess.tennessee.edu/debruyn-laboratory/)<br>Department of Biosystems Engineering and Soil Science<br>University of Tennessee-Knoxville"
   dates: Aug 2017 - Aug 2022
@@ -19,7 +28,7 @@
     - Managed and collaborated on multiple field experiments: responsible for preparing and executing field sampling.
     - Navigated, communicated, and collaborated with interdisciplinary research groups to accomplish grant aims and publication. 
 - title: Intern (biology)
-  lab: "[Ohio Water Microbiology Laboratory](https://www.usgs.gov/centers/oki-water)<br>Columbus, Ohio<br>United States Geological Survey"
+  lab: "[Ohio Water Microbiology Laboratory](https://www.usgs.gov/centers/oki-water)<br>Columbus, Ohio<br>U.S. Geological Survey"
   dates: Jul 2015 - Jul 2017
   tasks: |
     - Handled and prepared water and environmental samples from across the country for various tests such as: enumeration of enterococci, aerobic endospores, and virus plaques (1601 and 1602) and multiple source tracking.

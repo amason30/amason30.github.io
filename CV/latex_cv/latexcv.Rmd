@@ -92,7 +92,7 @@ split_md_list <- function(x) {
 Summary
 =================================
 
-I'm a microbial ecologist with experience in computational biology and management of multivariate projects. My research encompasses soil microbial ecology and terrestrial vertebrate decomposition. I have experience with multiple programming languages, with an expertise in R and execution of microbiome data analysis. I'm passionate about open source science, reproducible research, and teaching computational skill to individuals of all levels.
+I'm a microbial ecologist with experience in computational biology and management of multivariate projects. My research encompasses soil microbial ecology and terrestrial vertebrate decomposition. I have experience with multiple programming languages, with an expertise in R and execution of microbiome data analysis and package development. I'm passionate about open source science, reproducible research, and teaching computational skill to individuals of all levels.
 
 \faCogs Skills and Expertise
 =================================
@@ -101,7 +101,7 @@ I'm a microbial ecologist with experience in computational biology and managemen
 tribble(
   ~`Computational`, ~`Research`, ~`Laboratory`,
   linebreak("R -- R Markdown -- R Package Development -- Quarto --Git/Github -- Conda -- Unix/zsh"),
-  linebreak("Soil sampling/Field research -- Amplicon Sequencing -- Data Analysis/Visualization Soil microbiome/necrobiome -- Metatranscriptomics -- Biostatistics -- Reproducible Research -- Machine learning"),
+  linebreak("Soil sampling/Field research -- Amplicon Sequencing -- Data Analysis/Visualization -- Soil microbiome/necrobiome -- Metatranscriptomics -- Metabolomics -- Biostatistics -- Reproducible Research -- Machine learning"),
   "DNA/RNA extraction -- PCR/qPCR/RT-qPCR -- Cell culture -- Fluorometric assays -- Cell enumeriation -- media/solution preparation -- Cloning -- Gel electrophoresis -- Western blot"
 ) |>
   kable(booktabs = T, align = 'c', escape = F, format = "latex") |>
@@ -196,11 +196,14 @@ raise_asterisk <- function(x) {
   return(str_replace_all(x, "\\*", "\\textsuperscript{*}"))
 }
 
+
+
 pubs <- bib_entries %>%
   mutate(authors = format_md2tex(authors),
          journal = format_md2tex(gsub("\\*", "_", journal)),
-         doi = if_else(is.na(doi), "", paste0("\\href{https://doi.org/",doi,"}{",doi,"}"))) %>%
-  mutate(tex = paste0(authors," (",year,"). ",title," ",journal,". doi: ",doi)) %>%
+         doi = if_else(doi == "", NA_character_, doi), 
+         doi = if_else(is.na(doi), "", paste0("doi: \\href{https://doi.org/",doi,"}{",doi,"}"))) %>%
+  mutate(tex = paste0(authors," (",year,"). ",title," ",journal,". ",doi)) %>%
   pull(tex) %>%
   sapply(., function(x) {glue::glue("\\item { x %>% replace_amps() %>% raise_asterisk() }")})
 
@@ -250,6 +253,15 @@ read_yaml_as_tbl(here::here("CV/posters.yml")) %>%
 ```{r collabs, results = 'asis'}
 collab_entries <- read_yaml_as_tbl(here::here("CV/nonfirstauth_contributions.yml"))
 
+remove_links <- function(x) {
+  new <- x %>%
+          str_replace(., "\\(.*\\)", "") %>%
+          str_replace(., "\\[", "") %>%
+          str_replace(., "\\]", "")
+
+  return(new)
+  }
+
 raise_asterisk <- function(x) {
   return(str_replace_all(x, "\\*", "\\textsuperscript{*}"))
 }
@@ -257,7 +269,8 @@ raise_asterisk <- function(x) {
 pres <- collab_entries %>%
   mutate(authors = format_md2tex(authors), 
          event = format_md2tex(gsub("\\*", "_", event))) %>%
-  mutate(event = replace_amps(event)) %>%
+  mutate(event = replace_amps(event),
+         title = ifelse(str_detect(title, "\\["), remove_links(title), title)) %>%
   mutate(tex = paste0(authors," (",as.character(date),"). ",title," ",event," ",location)) %>%
   pull(tex) %>%
   sapply(., function(x) {glue::glue("\\item { x %>% replace_amps() %>% raise_asterisk() }")})
