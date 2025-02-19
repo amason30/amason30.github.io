@@ -3,7 +3,6 @@ surname: Allison R Mason, PhD
 position: "Microbiologist"
 pronouns: she/her
 www: amason30.github.io
-email: "masona13@outlook.com"
 github: amason30
 linkedin: allisonmason
 orcid: 0000-0003-1339-1592
