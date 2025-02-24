@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!CV/latex_cv/"
   
 website:
   title: "amason30.github.io"
