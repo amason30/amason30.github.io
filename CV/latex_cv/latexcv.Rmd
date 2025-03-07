@@ -99,8 +99,8 @@ I'm a microbial ecologist with experience in computational biology and managemen
 ```{r skilltable, results='markup'}
 tribble(
   ~`Computational`, ~`Research`, ~`Laboratory`,
-  linebreak("R -- R Markdown -- R Package Development -- Quarto --Git/Github -- Conda -- Unix/zsh"),
-  linebreak("Soil sampling/Field research -- Amplicon Sequencing -- Data Analysis/Visualization -- Soil microbiome/necrobiome -- Metatranscriptomics -- Metabolomics -- Biostatistics -- Reproducible Research -- Machine learning"),
+  linebreak("R -- R Markdown -- R Package Development -- Quarto --Git/Github -- Conda -- Unix/zsh -- Python -- C++ -- SQL -- Biostatistics -- Reproducible Research -- Machine learning"),
+  linebreak("Soil sampling/Field research -- Amplicon Sequencing -- Data Analysis/Visualization -- Soil microbiome/necrobiome -- Metatranscriptomics -- Metabolomics"),
   "DNA/RNA extraction -- PCR/qPCR/RT-qPCR -- Cell culture -- Fluorometric assays -- Cell enumeriation -- media/solution preparation -- Cloning -- Gel electrophoresis -- Western blot"
 ) |>
   kable(booktabs = T, align = 'c', escape = F, format = "latex") |>

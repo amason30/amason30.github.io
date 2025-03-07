@@ -3,23 +3,26 @@
     - R
     - R Markdown
     - R package development
+    - data visualization
     - High Performance Computing
     - Quarto
     - git
     - GitHub
     - conda/mamba
     - Unix
+    - Python 
+    - C++ 
+    - SQL 
+    - Biostatistics 
+    - Reproducible Research 
+    - Machine learning
 - title: Research
   categories:
-    - machine learning
-    - data visualization
     - soil microbiome
     - necrobiome
     - amplicon sequencing
     - metatransriptomics
     - metabolomics
-    - biostatistics
-    - reproducible research
     - field research
 - title: Laboratory
   categories:
